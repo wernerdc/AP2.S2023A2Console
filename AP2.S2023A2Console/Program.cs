@@ -13,8 +13,9 @@ namespace AP2.S2023A2Console
             PrintArrayToConsole(visitorsArray);
 
             // v2
+            Console.WriteLine("\n\nVersion 2 (Bube) \n");
+
             int[,] visitorsArrayV2 = countVisitorsV2(entry);
-            Console.WriteLine("\nVersion 2 \n");
             PrintArrayToConsole(visitorsArrayV2);
 
             Console.WriteLine("\nPress [ENTER] to exit...");
